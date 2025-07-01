@@ -71,6 +71,7 @@
         "symfony/css-selector": "^7.3",
         "symfony/debug-bundle": "^7.3",
         "symfony/error-handler": "^7.3",
+        "symfony/stopwatch": "7.3.*",
         "symfony/thanks": "^1.2",
         "symfony/web-profiler-bundle": "^7.3",
         "vincentlanglet/twig-cs-fixer": "^3.0"
