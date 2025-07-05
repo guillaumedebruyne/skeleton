@@ -27,7 +27,7 @@
         "chat": "https://sulu.io/services-and-support#chat"
     },
     "require": {
-        "php": ">=8.4.8",
+        "php": ">=8.4.10",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "doctrine/doctrine-bundle": "^2.13",
@@ -50,7 +50,7 @@
         "symfony/mailer": "^7.3",
         "symfony/monolog-bridge": "^7.3",
         "symfony/monolog-bundle": "^3.4",
-        "symfony/runtime": "7.3.*",
+        "symfony/runtime": "^7.3",
         "symfony/security-bundle": "^7.3",
         "symfony/twig-bundle": "^7.3"
     },
@@ -71,6 +71,7 @@
         "symfony/css-selector": "^7.3",
         "symfony/debug-bundle": "^7.3",
         "symfony/error-handler": "^7.3",
+        "symfony/maker-bundle": "^1.63",
         "symfony/stopwatch": "7.3.*",
         "symfony/thanks": "^1.2",
         "symfony/web-profiler-bundle": "^7.3",
@@ -173,7 +174,7 @@
         "lint-twig": "@php bin/console lint:twig templates/",
         "lint-xliff": "@php bin/console lint:xliff translations/",
         "lint-translations": [
-            "@php bin/console debug:translation en --only-missing"
+            "@php bin/console debug:translation fr --only-missing"
         ],
         "lint-yaml": "@php bin/console lint:yaml config/ --parse-tags",
         "lint-container": [

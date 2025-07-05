@@ -22,7 +22,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="{{ sulu_content_root_path() }}">Homepage</a>
+                        <a href="{{ sulu_content_root_path() }}">Accueil</a>
                     </li>
 
                     {% for item in sulu_navigation_root_tree('main') %}
@@ -37,8 +37,8 @@
     </header>
 
     <form action="{{ path('sulu_search.website_search') }}" method="GET">
-        <input name="q" type="text" placeholder="Search"/>
-        <input type="submit" value="Go"/>
+        <input name="q" type="text" placeholder="Recherche"/>
+        <input type="submit" value="Aller"/>
     </form>
 
     <main>
