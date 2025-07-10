@@ -37,8 +37,8 @@ doctrine:
                 mappings:
                     Symfony:
                         is_bundle: false
-                        dir: '%kernel.project_dir%/src/SymfonyEntity'
-                        prefix: 'App\Entity\Symfony'
+                        dir: '%kernel.project_dir%/src/Symfony/Entity'
+                        prefix: 'App\Symfony\Entity'
                         alias: Symfony
 
         controller_resolver:

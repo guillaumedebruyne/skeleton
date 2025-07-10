@@ -50,7 +50,7 @@
         "symfony/mailer": "^7.3",
         "symfony/monolog-bridge": "^7.3",
         "symfony/monolog-bundle": "^3.4",
-        "symfony/runtime": "^7.3",
+        "symfony/runtime": "7.3.*",
         "symfony/security-bundle": "^7.3",
         "symfony/twig-bundle": "^7.3"
     },
